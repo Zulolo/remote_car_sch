@@ -107,7 +107,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 130 1653 130 807")
-        (Scroll "-124 -9")
+        (Scroll "-270 -9")
         (Zoom "134")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR\MOTOR_TI_FOC.DSN")
