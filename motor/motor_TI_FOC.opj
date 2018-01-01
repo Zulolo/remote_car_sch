@@ -13,6 +13,18 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (TestPad_Small_SMD
+      (FullPartName "TestPad_Small_SMD.Normal")
+      (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
+      (DeviceIndex "0"))
+    (C1X6Gen
+      (FullPartName "C1X6Gen.Normal")
+      (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (C1X2
       (FullPartName "C1X2.Normal")
       (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
@@ -82,7 +94,9 @@
          "G:\Geek\Projects\remote_car\SCH\motor\motor_ti_foc.dsn" "SCHEMATIC1")
       (Path "Design Resources"
          "G:\Geek\Projects\remote_car\SCH\motor\motor_ti_foc.dsn" "Design Cache")
-      (Path "Design Resources" "Library"))
+      (Path "Design Resources" "Library")
+      (Select "Design Resources"
+         "G:\Geek\Projects\remote_car\SCH\motor\motor_ti_foc.dsn" "Design Cache"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -93,8 +107,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 130 1653 130 807")
-        (Scroll "-90 -8")
-        (Zoom "117")
+        (Scroll "-124 -9")
+        (Zoom "134")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR\MOTOR_TI_FOC.DSN")
       (Schematic "SCHEMATIC1")
@@ -103,8 +117,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1613 78 755")
-        (Scroll "-59 0")
-        (Zoom "117")
+        (Scroll "-93 0")
+        (Zoom "134")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR\MOTOR_TI_FOC.DSN")
       (Schematic "SCHEMATIC1")
