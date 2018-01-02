@@ -9,10 +9,30 @@
     (File ".\motor_ti_foc.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (TestPad_Small_SMD
       (FullPartName "TestPad_Small_SMD.Normal")
       (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
@@ -43,10 +63,6 @@
       (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
-      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (LED
-      (FullPartName "LED.Normal")
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (OFFPAGELEFT-R
@@ -94,21 +110,19 @@
          "G:\Geek\Projects\remote_car\SCH\motor\motor_ti_foc.dsn" "SCHEMATIC1")
       (Path "Design Resources"
          "G:\Geek\Projects\remote_car\SCH\motor\motor_ti_foc.dsn" "Design Cache")
-      (Path "Design Resources" "Library")
-      (Select "Design Resources"
-         "G:\Geek\Projects\remote_car\SCH\motor\motor_ti_foc.dsn" "Design Cache"))
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 397 0 1009"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 397 0 1009"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 130 1653 130 807")
-        (Scroll "-270 -9")
-        (Zoom "134")
+        (Placement "44 0 1 -1 -1 -8 -31 443 1966 121 798")
+        (Scroll "0 0")
+        (Zoom "208")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR\MOTOR_TI_FOC.DSN")
       (Schematic "SCHEMATIC1")
