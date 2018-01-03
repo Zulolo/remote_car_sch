@@ -25,8 +25,34 @@
     (Annotate_type "Default")
     (width_pages "100")
     (width_start "80")
-    (width_End "80"))
-  (Folder "Outputs")
+    (width_End "80")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "G:\GEEK\PROJECTS\REMOTE_CAR\PCB")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\MOTOR_TI_FOC.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File "g:\geek\projects\remote_car\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "g:\geek\projects\remote_car\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "g:\geek\projects\remote_car\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (LED
@@ -110,18 +136,19 @@
          "G:\Geek\Projects\remote_car\SCH\motor\motor_ti_foc.dsn" "SCHEMATIC1")
       (Path "Design Resources"
          "G:\Geek\Projects\remote_car\SCH\motor\motor_ti_foc.dsn" "Design Cache")
-      (Path "Design Resources" "Library"))
+      (Path "Design Resources" "Library")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 397 0 1009"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 397 0 1009"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 443 1966 121 798")
-        (Scroll "0 0")
+        (Scroll "0 432")
         (Zoom "208")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR\MOTOR_TI_FOC.DSN")
@@ -137,4 +164,5 @@
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR\MOTOR_TI_FOC.DSN")
       (Schematic "SCHEMATIC1")
       (Page "controller")))
-  (MPSSessionName "Zulolo"))
+  (MPSSessionName "Zulolo")
+  (ISPCBBASICLICENSE "false"))
