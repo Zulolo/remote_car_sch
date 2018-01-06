@@ -55,6 +55,14 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (C1X4Gen
+      (FullPartName "C1X4Gen.Normal")
+      (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE TVS"
+      (FullPartName "DIODE TVS.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (LED
       (FullPartName "LED.Normal")
       (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -142,13 +150,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 397 0 1009"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 397 0 1009"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 443 1966 121 798")
-        (Scroll "0 432")
+        (Scroll "397 436")
         (Zoom "208")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR\MOTOR_TI_FOC.DSN")
@@ -158,8 +166,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1613 78 755")
-        (Scroll "-93 0")
-        (Zoom "134")
+        (Scroll "991 785")
+        (Zoom "268")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR\MOTOR_TI_FOC.DSN")
       (Schematic "SCHEMATIC1")
