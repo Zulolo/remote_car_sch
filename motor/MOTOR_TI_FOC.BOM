@@ -1,0 +1,51 @@
+mosfet_driver  Revised: Saturday, January 06, 2018
+remote_car_motor          Revision: A
+
+
+
+
+
+
+
+Bill Of Materials        January 8,2018      22:07:21	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	3	C1,C2,C3	2.2nF
+2	6	C4,C5,C6,C7,C8,C15	2.2uF
+3	1	C9	4.7uF
+4	7	C10,C11,C12,C17,C18,C22,	1uF
+		C25
+5	2	C13,C14	47nF
+6	5	C19,C20,C28,C29,C30	0.1uF
+7	3	C21,C23,C24	1nF
+8	2	C26,C27	10uF
+9	1	D1	RED
+10	4	D2,D3,D4,D5	3.3V
+11	1	J1	JTAG
+12	1	J2	motor_A
+13	1	J3	Conn1X4
+14	1	J4	motor_B
+15	1	J5	motor_C
+16	1	J6	power_P
+17	1	J7	power_GND
+18	2	L1,L2	bead
+19	1	MCU1	TMS320F28027
+20	6	MOSFET1,MOSFET2,MOSFET3,	IRLR7843-TO252AA
+		MOSFET4,MOSFET5,MOSFET6
+21	2	R1,R4	820R
+22	4	R2,R3,R5,R6	2.2K
+23	1	R7	100R
+24	1	R8	0R
+25	1	R9	10K
+26	1	R10	330R
+27	4	R11,R12,R20,R21	62K
+28	4	R13,R14,R22,R24	5K
+29	3	R15,R16,R23	0.007R
+30	3	R17,R18,R19	56R
+31	1	TP1	CAP_P
+32	1	TP2	CAP_N
+33	1	T1	X2
+34	1	T2	X1
+35	1	U1	DRV8305N
