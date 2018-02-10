@@ -68,6 +68,14 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("INDUCTOR IRON"
+      (FullPartName "INDUCTOR IRON.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (DRV8301
       (FullPartName "DRV8301.Normal")
       (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
@@ -155,12 +163,16 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\motor_ti_foc.dsn")
-      (Path "Design Resources" ".\motor_ti_foc.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "G:\Geek\Projects\remote_car\SCH\motor_DRV8301\motor_ti_foc.dsn")
+      (Path "Design Resources"
+         "G:\Geek\Projects\remote_car\SCH\motor_DRV8301\motor_ti_foc.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\motor_ti_foc.dsn" "SCHEMATIC1"
-         "mosfet_driver"))
+      (Select "Design Resources"
+         "G:\Geek\Projects\remote_car\SCH\motor_DRV8301\motor_ti_foc.dsn"
+         "SCHEMATIC1" "mosfet_driver"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -170,12 +182,23 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1665 52 649")
-        (Scroll "-119 0")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1665 52 649")
+        (Scroll "-209 0")
+        (Zoom "98")
+        (Occurrence "/"))
+      (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR_DRV8301\MOTOR_TI_FOC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "mosfet_driver"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 208 1821 208 805")
+        (Scroll "-230 -9")
         (Zoom "112")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR_DRV8301\MOTOR_TI_FOC.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "mosfet_driver")))
+      (Page "controller")))
   (MPSSessionName "Zulolo")
-  (ISPCBBASICLICENSE "false"))
+  (ISPCBBASICLICENSE "false")
+  (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.2\tools\capture\library"))
