@@ -27,7 +27,7 @@
     (width_start "80")
     (width_End "80")
     ("Create Allegro Netlist" "TRUE")
-    ("Allegro Netlist Directory" "G:\GEEK\PROJECTS\REMOTE_CAR\PCB")
+    ("Allegro Netlist Directory" "G:\GEEK\PROJECTS\REMOTE_CAR\PCB\PCB_DRV8305")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
@@ -65,7 +65,16 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\motor_ti_foc.bom"
-      (Type "Report")))
+      (Type "Report"))
+    (File "g:\geek\projects\remote_car\pcb\pcb_drv8305\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "g:\geek\projects\remote_car\pcb\pcb_drv8305\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "g:\geek\projects\remote_car\pcb\pcb_drv8305\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (C1X4Gen
@@ -151,12 +160,9 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\motor_ti_foc.dsn")
-      (Path "Design Resources" ".\motor_ti_foc.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\motor_ti_foc.dsn" "SCHEMATIC1"
-         "mosfet_driver"))
+      (Select "Design Resources" ".\motor_ti_foc.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -167,7 +173,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1613 52 685")
-        (Scroll "-155 0")
+        (Scroll "-155 67")
         (Zoom "124")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR_DRV8305\MOTOR_TI_FOC.DSN")
@@ -177,8 +183,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1665 104 737")
-        (Scroll "-155 0")
-        (Zoom "124")
+        (Scroll "-106 95")
+        (Zoom "134")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR_DRV8305\MOTOR_TI_FOC.DSN")
       (Schematic "SCHEMATIC1")

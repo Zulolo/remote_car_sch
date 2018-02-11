@@ -27,7 +27,7 @@
     (width_start "80")
     (width_End "80")
     ("Create Allegro Netlist" "TRUE")
-    ("Allegro Netlist Directory" "G:\GEEK\PROJECTS\REMOTE_CAR\PCB_DRV8301")
+    ("Allegro Netlist Directory" "G:\GEEK\PROJECTS\REMOTE_CAR\PCB\PCB_DRV8301")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
@@ -73,6 +73,15 @@
       (Type "Report")
       (DisplayName "pstxprt.dat"))
     (File "g:\geek\projects\remote_car\pcb_drv8301\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File "g:\geek\projects\remote_car\pcb\pcb_drv8301\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File "g:\geek\projects\remote_car\pcb\pcb_drv8301\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File "g:\geek\projects\remote_car\pcb\pcb_drv8301\pstchip.dat"
       (Type "Report")
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
@@ -176,14 +185,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "G:\Geek\Projects\remote_car\SCH\motor_DRV8301\motor_ti_foc.dsn")
-      (Path "Design Resources"
-         "G:\Geek\Projects\remote_car\SCH\motor_DRV8301\motor_ti_foc.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\motor_ti_foc.dsn")
+      (Path "Design Resources" ".\motor_ti_foc.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "g:\cadence\schematic_lib\core.olb")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\motor_ti_foc.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -193,8 +199,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1665 52 649")
-        (Scroll "0 205")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1665 52 649")
+        (Scroll "441 0")
         (Zoom "196")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR_DRV8301\MOTOR_TI_FOC.DSN")
@@ -204,8 +210,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 208 1821 208 805")
-        (Scroll "-205 0")
-        (Zoom "119")
+        (Scroll "-132 0")
+        (Zoom "134")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR_DRV8301\MOTOR_TI_FOC.DSN")
       (Schematic "SCHEMATIC1")
