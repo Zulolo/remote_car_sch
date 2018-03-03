@@ -86,6 +86,10 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (C2X4
+      (FullPartName "C2X4.Normal")
+      (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
+      (DeviceIndex "0"))
     (C1X7
       (FullPartName "C1X7.Normal")
       (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
@@ -177,19 +181,15 @@
     (NUP4201MR6T1G
       (FullPartName "NUP4201MR6T1G.Normal")
       (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
-      (DeviceIndex "0"))
-    (DRV8305
-      (FullPartName "DRV8305.Normal")
-      (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\motor_ti_foc.dsn")
-      (Path "Design Resources" ".\motor_ti_foc.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\motor_ti_foc.dsn"))
+      (Select "Design Resources" ".\motor_ti_foc.dsn" "SCHEMATIC1"
+         "mosfet_driver"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -200,7 +200,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1665 52 649")
-        (Scroll "441 0")
+        (Scroll "0 0")
         (Zoom "196")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR_DRV8301\MOTOR_TI_FOC.DSN")
@@ -210,8 +210,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 208 1821 208 805")
-        (Scroll "-132 0")
-        (Zoom "134")
+        (Scroll "282 27")
+        (Zoom "268")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR_DRV8301\MOTOR_TI_FOC.DSN")
       (Schematic "SCHEMATIC1")
