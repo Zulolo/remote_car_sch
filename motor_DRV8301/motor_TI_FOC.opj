@@ -194,14 +194,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 397 0 1009"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 397 0 1009"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1665 52 649")
-        (Scroll "441 280")
-        (Zoom "196")
+        (Scroll "-98 0")
+        (Zoom "117")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR_DRV8301\MOTOR_TI_FOC.DSN")
       (Schematic "SCHEMATIC1")
@@ -210,7 +210,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 208 1821 208 805")
-        (Scroll "-132 90")
+        (Scroll "-132 0")
         (Zoom "134")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR_DRV8301\MOTOR_TI_FOC.DSN")
