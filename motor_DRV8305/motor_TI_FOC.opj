@@ -160,11 +160,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\motor_ti_foc.dsn")
-      (Path "Design Resources" ".\motor_ti_foc.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "G:\Geek\Projects\remote_car\SCH\motor_DRV8305\motor_ti_foc.dsn")
+      (Path "Design Resources"
+         "G:\Geek\Projects\remote_car\SCH\motor_DRV8305\motor_ti_foc.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\motor_ti_foc.dsn" "SCHEMATIC1" "controller"))
+      (Select "Design Resources"
+         "G:\Geek\Projects\remote_car\SCH\motor_DRV8305\motor_ti_foc.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -174,9 +178,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1613 52 685")
-        (Scroll "-106 0")
-        (Zoom "134")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1613 52 685")
+        (Scroll "447 546")
+        (Zoom "268")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR_DRV8305\MOTOR_TI_FOC.DSN")
       (Schematic "SCHEMATIC1")
@@ -184,8 +188,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1665 104 737")
-        (Scroll "144 390")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1665 104 737")
+        (Scroll "0 548")
         (Zoom "209")
         (Occurrence "/"))
       (Path "G:\GEEK\PROJECTS\REMOTE_CAR\SCH\MOTOR_DRV8305\MOTOR_TI_FOC.DSN")
